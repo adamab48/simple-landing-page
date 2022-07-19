@@ -164,7 +164,7 @@ li {
   display: flex;
   flex-flow: row nowrap;
   width: 100%;
-  background-color: #fda241;
+  background-color: #ffa94e;
   
 }
 
@@ -172,5 +172,7 @@ li {
     0% {transform: translateX(0px);}
     100% {transform: translateX(2000px);}
 }
+
+
 
 
