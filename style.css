@@ -66,6 +66,7 @@ li {
 
 .prefooter {
     height: 200px;
+    text-align: center;
     
 }
 
@@ -108,5 +109,39 @@ li {
     border-radius: 20px;
     height: 200px;
     width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
+}
+
+.rect-container {
+    word-wrap: break-word;
+    width: 200px;
+    margin-right: 50px;
+}
+
+.rectangle img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
+
+.body-container p {
+    color: #e5e7eb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter; 
+    font-size: 18px;
+}
+
+.body-container {
+    display: block;
+    margin-right: 50px; 
+    width: 550px;
+}
+
+.body1 img {
+    border-radius: 15px;
+    border: #3882f6 solid 3px;
 }
