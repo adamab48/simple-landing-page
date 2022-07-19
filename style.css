@@ -145,3 +145,32 @@ li {
     border-radius: 15px;
     border: #3882f6 solid 3px;
 }
+
+
+.kiblast {
+    height: 100px;
+    width: auto;
+    display: none;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+    
+}
+
+
+
+.kiblast-container {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  background-color: #fda241;
+  
+}
+
+@keyframes slide {
+    0% {transform: translateX(0px);}
+    100% {transform: translateX(2000px);}
+}
+
+

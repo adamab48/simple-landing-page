@@ -34,10 +34,13 @@
                 with elements of Hong Kong
                 martial arts films.
             </p>
-            <button class="bluebutton">Ki Blast</button>
+            <button class="bluebutton" onclick="kiblastanim()">Ki Blast</button>
         </div>
         <img src="images/channels4_profile.jpg">
 
+    </div>
+    <div class="kiblast-container"> 
+        <img src="images/kiblast.gif" class="kiblast">
     </div>
     <div class="prefooter">
         <div style="text-align: center;margin: 40px;">
@@ -49,27 +52,39 @@
                     <img src="images/Gohan.gif">
                 </div>
                 <p>Gohan (Goku's Son)</p>
-            </div>  
+            </div>
             <div class="rect-container">
                 <div class="rectangle">
                     <img src="images/vegeta.gif">
                 </div>
                 <p>Vegeta (Goku's Rival)</p>
-            </div>  
+            </div>
             <div class="rect-container">
                 <div class="rectangle">
                     <img src="images/picoo.gif">
                 </div>
                 <p>Piccolo (Goku's Friend)</p>
-            </div>  
+            </div>
             <div class="rect-container">
                 <div class="rectangle">
                     <img src="images/trunks.gif">
                 </div>
                 <p>Future Trunks <br>(Vegeta's Child)</p>
-            </div>  
+            </div>
         </div>
     </div>
 </body>
+<script>
+    function kiblastanim() {
 
+            var blast = document.getElementsByClassName("kiblast")[0];
+            if (blast.style.display === "none" ) {
+                blast.style.display = "block";
+            }
+            else {
+                blast.style.display = "none";
+            }
+
+    }
+</script>
 </html>
