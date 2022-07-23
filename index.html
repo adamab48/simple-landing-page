@@ -16,9 +16,9 @@
         </div>
 
         <div class="links">
-            <a href="">History</a>
-            <a href="">anime</a>
-            <a href="">Manga</a>
+            <a href="https://en.wikipedia.org/wiki/Dragon_Ball" >history</a>
+            <a href="https://dragonball.fandom.com/wiki/Category:Anime_series">anime</a>
+            <a href="https://dragonball.fandom.com/wiki/Category:Manga_Chapters">Manga</a>
         </div>
     </div>
     <div class="body1">
@@ -73,18 +73,34 @@
             </div>
         </div>
     </div>
+    <div class="footer">
+        <h2>
+            Made With 🔥 by Adam 
+        </h2>
+        <div>
+            <img src="images/cp.png" >
+            <h3>
+               <a href="https://www.theodinproject.com/">The Odin project</a> 
+            </h3> 
+        </div>
+    </div>
 </body>
 <script>
     function kiblastanim() {
-
-            var blast = document.getElementsByClassName("kiblast")[0];
-            if (blast.style.display === "none" ) {
+            
+            let blast = document.getElementsByClassName("kiblast")[0];
+            let button = document.getElementsByClassName("bluebutton")[0];
+            if (blast.style.display === "" ) {
                 blast.style.display = "block";
+                button.style.backgroundColor = "#f0833a";
+
             }
             else {
-                blast.style.display = "none";
+                blast.style.display = "";
+                button.style.backgroundColor = "#3882f6";
             }
-
     }
+   
+    
 </script>
 </html>

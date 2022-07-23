@@ -65,7 +65,6 @@ li {
 }
 
 .prefooter {
-    height: 200px;
     text-align: center;
     
 }
@@ -77,7 +76,7 @@ li {
 
 .bluebutton {
 
-    background-color: #3882f6; /* Green */
+  background-color: #3882f6;
   border: none;
   color: #F9FAF8;
   padding: 15px 32px;
@@ -164,7 +163,7 @@ li {
   display: flex;
   flex-flow: row nowrap;
   width: 100%;
-  background-color: firebrick;
+  background-color: #f0833a;
   
 }
 
@@ -173,6 +172,45 @@ li {
     100% {transform: translateX(2000px);}
 }
 
+.footer {
+    display: block;
+    background-color: #1f2937;
+    text-align: center;
+    padding: 15px;
+
+}
+
+.footer h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #F9FAF8;
+}
 
 
+.footer h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #F9FAF8;
+    
+}
 
+.footer div img {
+    color: #1f2937;
+    height: 10px;
+    width: 10px;
+    margin-right: 5px;
+}
+
+.footer div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.links a:hover {
+    color: #f0833a;
+    font-weight: bolder;
+    
+}
